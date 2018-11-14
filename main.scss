@@ -1,0 +1,14 @@
+/**
+ * Principal de css
+ */
+@import './sass/variables';
+@import './sass/lib/mixins';
+
+.div 
+{
+	background-color: $color-secondary;
+}
+
+@import './sass/tables';
+@import './sass/base/buttons';
+@import './sass/layouts/layout';

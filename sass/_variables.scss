@@ -1,0 +1,58 @@
+/**
+ * 
+ * Variables
+ * 
+*/
+
+$color-brand : #ea83ee;
+$color-secondary : rgb(219, 216, 121);
+
+$black : rgb(0,0,0);
+
+$darkgray: #4d4d4d;
+$gray : #737373;
+$lightgray : lighten($gray, 25%);
+$white : rgb(255, 255 , 255);
+
+
+/*-------text colors */
+$black-text:black;
+$blue-text:blue;
+$yellow-text:yellow;
+$orange-text:orange;
+$white-text:white;
+
+/*-------alerts colors */
+$danger-color:#ff0000;
+$warning-color: #ffa500;
+$success-color: #30e92c;
+$info-color: #5474f5;
+$primary-color: #584aff;
+
+/** Constantes */
+$border-radius: 3px;
+$basefontsize: 16px;
+
+$buttoncolor: $white;
+$buttonbackgroundcolor: $color-brand;
+$buttonfontsize: $basefontsize * 1.5;
+
+
+$basefont:Verdana, Geneva, Tahoma, sans-serif;
+$page-width: 800px;
+
+$fs : (
+	big: 24px,
+	normal: 16px,
+	small: 10px
+);
+
+$background-color: black;
+
+@if $background-color = black {
+	p {
+		color: white
+	}
+}
+
+$prueba : 1;

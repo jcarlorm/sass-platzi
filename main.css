@@ -1,0 +1,81 @@
+/**
+ * Principal de css
+ */
+/**
+ * 
+ * Variables
+ * 
+*/
+/*-------text colors */
+/*-------alerts colors */
+/** Constantes */
+p {
+  color: white; }
+
+/** MIXINS */
+.div {
+  background-color: #dbd879; }
+
+table tr:hover {
+  background-color: gray; }
+
+/**
+ * 
+ * BOTONES
+ * 
+ */
+.btn, .btn--primary {
+  display: inline-block;
+  color: white;
+  background-color: #ea83ee;
+  line-height: 2.5;
+  border-radius: 3px;
+  font-size: 24px; }
+
+.btn__icon {
+  font-size: .6rem; }
+
+.btn--info {
+  background-color: #5474f5; }
+
+section {
+  max-width: 800px;
+  font: 100;
+  color: wheat;
+  background: black;
+  font-size: 20px; }
+
+.container {
+  max-width: 1024px;
+  font: 100;
+  color: wheat;
+  background: black;
+  font-size: 20px;
+  background-color: blue; }
+  @media only screen and (min-width: 800px) {
+    .container {
+      background-color: red; } }
+
+p {
+  font-size: 16px; }
+
+.normal {
+  font-weight: normal; }
+
+.bold {
+  font-weight: bold; }
+
+.italic {
+  font-weight: italic; }
+
+.class-1:before {
+  content: "1"; }
+
+.class-2:before {
+  content: "2"; }
+
+.class-3:before {
+  content: "3"; }
+
+.class-4:before {
+  content: "4"; }

@@ -1,0 +1,30 @@
+
+section {
+	@include max-width;
+}
+
+.container {
+	@include max-width(1024px);
+	background-color: blue;
+	@include respond-to(800px) {
+		background-color: red;
+	}
+}
+
+p {
+	font-size: map-get($fs, normal)
+}
+
+$font-weigths: normal bold italic;
+
+@each $font in $font-weigths {
+	.#{$font} { font-weight: $font; }
+}
+
+@for $i from 1 to 5 {
+	.class-#{$i} {
+		&:before {
+			content: "#{$i}"
+		}
+	}
+}

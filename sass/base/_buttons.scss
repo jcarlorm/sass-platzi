@@ -1,0 +1,32 @@
+/**
+ * 
+ * BOTONES
+ * 
+ */
+
+
+ %btn {
+	display: inline-block;
+	color: $buttoncolor;
+	background-color: $buttonbackgroundcolor;
+	line-height: 2.5;
+	border-radius: $border-radius;
+	font-size: $buttonfontsize;
+ }
+
+ .btn {
+	@extend %btn;
+
+	&__icon {
+		font-size: .6rem;
+	}
+
+	&--info {
+		background-color: $info-color;
+	}
+ }
+ 
+ .btn--primary 
+ {
+	 @extend %btn;
+ }
